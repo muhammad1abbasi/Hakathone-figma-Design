@@ -1,3 +1,4 @@
+import { title } from "process";
 import type { Config } from "tailwindcss";
 
 export default {
@@ -8,6 +9,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily:{
+        josifin:["Josefin Sans", "sans-serif"]
+
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
