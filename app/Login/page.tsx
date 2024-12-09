@@ -1,18 +1,22 @@
 import Headerone from '@/components/headerone';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import Shop from '@/components/griddef/shop';
-import Itemsgrid from '@/components/griddef/itemsgrid';
+import LoginHead from '@/components/Login/loginhead';
+LoginBar
+
 
 import React from 'react'
+import LoginBar from '@/components/Login/LoginBar';
 
-const GridDef = () => {
+
+const LoginPage = () => {
   return (
     <div className='font-josifin'>
         <Headerone></Headerone>
         <Header></Header>
-        <Shop></Shop>
-        <Itemsgrid></Itemsgrid>
+        <LoginHead></LoginHead>
+        <LoginBar></LoginBar>
+        
         <Footer></Footer>
         
         
@@ -21,4 +25,4 @@ const GridDef = () => {
   )
 }
 
-export default GridDef ;
+export default LoginPage ;

@@ -1,18 +1,24 @@
 import Headerone from '@/components/headerone';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
-import Shop from '@/components/griddef/shop';
-import Itemsgrid from '@/components/griddef/itemsgrid';
+import FourPage from '@/components/404/four-O-four';
+
+
+
 
 import React from 'react'
+import LoginBar from '@/components/Login/LoginBar';
 
-const GridDef = () => {
+
+const NoReachPage = () => {
   return (
     <div className='font-josifin'>
         <Headerone></Headerone>
         <Header></Header>
-        <Shop></Shop>
-        <Itemsgrid></Itemsgrid>
+        <FourPage></FourPage>
+
+
+        
         <Footer></Footer>
         
         
@@ -21,4 +27,4 @@ const GridDef = () => {
   )
 }
 
-export default GridDef ;
+export default NoReachPage ;
