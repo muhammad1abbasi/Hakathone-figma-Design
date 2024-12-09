@@ -2,7 +2,6 @@ import Headerone from '@/components/headerone';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
 import LoginHead from '@/components/Login/loginhead';
-LoginBar
 
 
 import React from 'react'
