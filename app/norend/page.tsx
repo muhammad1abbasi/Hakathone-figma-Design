@@ -7,7 +7,7 @@ import FourPage from '@/components/404/four-O-four';
 
 
 import React from 'react'
-import LoginBar from '@/components/Login/LoginBar';
+
 
 
 const NoReachPage = () => {
