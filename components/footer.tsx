@@ -8,8 +8,8 @@ const Footer = () => {
     <div className='container mx-auto my-10 max-w-full'>
         <div className='flex flex-col md:flex-row justify-evenly my-20 bg-slate-200'>
             <div className='space-y-5 my-16'>
-             <Image src="/images/Hekto.svg" alt='igm' width={98} height={34}/>
-            <div className='flex flex-col sm:flex-row space-x-3 '>
+            <h1 className="text-[30px] text-blue-950 font-josifin font-bold ">Hekto</h1>
+            <div className='flex flex-col sm:flex-row md:space-x-3 '>
             <input type="text" placeholder='Enter Your Email' 
              className='border shadow py-3 px-5 rounded' 
              />
